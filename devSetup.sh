@@ -41,3 +41,6 @@ read sshVar
 ssh-keygen -t ed25519 -C $sshVar
 ssh-add ~/.ssh/id_ed25519
 
+# Go Lang
+sudo snap install go --classic
+
