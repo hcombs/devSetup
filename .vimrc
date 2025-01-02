@@ -34,3 +34,4 @@ endif
 command! -nargs=1 Gof put='func <args> (){ }'
 command! -nargs=1 Dqs put='document.querySelector(\"<args>\")'
 command! -nargs=1 Jsf put='const <args> = ()=>{ }'
+command! -nargs=0 Div put='<div></div>'
