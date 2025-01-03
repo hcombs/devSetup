@@ -34,3 +34,17 @@ ssh-add ~/.ssh/id_ed25519
 # Go Lang
 sudo snap install go --classic
 
+echo "alias editalias='vi ~/.bashrc'" >> ~/.bashrc
+echo "alias updatealias='source ~/.bashrc'" >> ~/.bashrc
+echo "alias taskdb='cd ~/projects/taskDB && vim .'" >> ~/.bashrc
+echo "alias tabman='cd ~/projects/tabManagement && vim .'" >> ~/.bashrc
+echo "alias devenv='cd ~/projects/devSetup && vim .'" >> ~/.bashrc
+echo "alias database='cd ~/projects/database && vim .'" >> ~/.bashrc
+echo "alias sudoku='cd ~/projects/sudoku/Sudoku && vim .'" >> ~/.bashrc
+echo "alias off='sudo shutdown -h now'" >> ~/.bashrc
+echo "alias lext='bash loadextension.sh'" >> ~/.bashrc
+echo "alias gs='git status'" >> ~/.bashrc
+echo "alias ga='git add .'" >> ~/.bashrc
+echo "alias gc='git commit -m'" >> ~/.bashrc
+echo "alias gp='git push origin master'" >> ~/.bashrc
+echo "alias noteserver='cd ~/projects/noteServer && vim .'" >> ~/.bashrc
